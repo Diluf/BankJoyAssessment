@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">APPNAME</string>
+    <string name="remember_me">Remember me</string>
+    <string name="your_username_or_password_is_incorrect_please_try_again">Your username or password is incorrect. Please, try again.</string>
+    <string name="help">Help?</string>
+    <string name="continue_">Continue</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+</resources>

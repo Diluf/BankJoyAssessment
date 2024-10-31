@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:fillViewport="true">
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        android:gravity="center_horizontal">-->
+
+    <!--        &lt;!&ndash; App Logo and Name &ndash;&gt;-->
+    <!--        <ImageView-->
+    <!--            android:id="@+id/appLogo"-->
+    <!--            android:layout_width="80dp"-->
+    <!--            android:layout_height="80dp"-->
+    <!--            android:src="@drawable/ic_launcher_foreground"-->
+    <!--            android:layout_marginTop="40dp"-->
+    <!--            android:contentDescription="App Logo" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/appName"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="APPNAME"-->
+    <!--            android:textColor="#2A2B4A"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:layout_marginTop="8dp" />-->
+
+    <!--        &lt;!&ndash; Login Form &ndash;&gt;-->
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginTop="24dp"-->
+    <!--            android:orientation="vertical"-->
+    <!--            android:background="@drawable/rounded_background"-->
+    <!--            android:padding="24dp">-->
+
+    <!--            &lt;!&ndash; Username &ndash;&gt;-->
+    <!--            <EditText-->
+    <!--                android:id="@+id/etUsername"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:hint="Username"-->
+    <!--                android:inputType="text"-->
+    <!--                android:textColor="#2A2B4A"-->
+    <!--                android:textSize="16sp"-->
+    <!--                android:layout_marginBottom="8dp" />-->
+
+    <!--            &lt;!&ndash; Password &ndash;&gt;-->
+    <!--            <EditText-->
+    <!--                android:id="@+id/etPassword"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:hint="Password"-->
+    <!--                android:inputType="textPassword"-->
+    <!--                android:textSize="16sp"-->
+    <!--                android:layout_marginBottom="8dp" />-->
+
+    <!--            &lt;!&ndash; Error Message &ndash;&gt;-->
+    <!--            <TextView-->
+    <!--                android:id="@+id/tvErrorMessage"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Your username or password is incorrect. Please, try again."-->
+    <!--                android:textColor="@android:color/holo_red_dark"-->
+    <!--                android:visibility="gone"-->
+    <!--                android:layout_marginBottom="8dp" />-->
+
+    <!--            &lt;!&ndash; Remember Me and Help &ndash;&gt;-->
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:orientation="horizontal"-->
+    <!--                >-->
+
+    <!--                <CheckBox-->
+    <!--                    android:id="@+id/cbRememberMe"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="Remember me"-->
+    <!--                    android:textSize="14sp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/tvHelp"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="Help?"-->
+    <!--                    android:textColor="#3F51B5"-->
+    <!--                    android:textSize="14sp" />-->
+    <!--            </LinearLayout>-->
+
+    <!--            &lt;!&ndash; Continue Button &ndash;&gt;-->
+    <!--            <Button-->
+    <!--                android:id="@+id/btnContinue"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Continue"-->
+    <!--                android:layout_marginTop="16dp"-->
+    <!--                android:backgroundTint="#E0E0E0"-->
+    <!--                android:textColor="#9E9E9E"-->
+    <!--                android:enabled="false" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        &lt;!&ndash; Bottom Buttons &ndash;&gt;-->
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:layout_marginTop="24dp">-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn1"-->
+    <!--                android:layout_width="0dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="Button 1"-->
+    <!--                android:textColor="#3F51B5"-->
+    <!--                android:backgroundTint="@android:color/transparent" />-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/btn2"-->
+    <!--                android:layout_width="0dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="Button 2"-->
+    <!--                android:textColor="#3F51B5"-->
+    <!--                android:backgroundTint="@android:color/transparent" />-->
+    <!--        </LinearLayout>-->
+    <!--    </LinearLayout>-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageViewBack"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img"
+            app:contrast=".5"
+            app:layout_constraintBottom_toBottomOf="@+id/usernameLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_size_header"
+            android:alpha=".8"
+            android:drawableStart="@drawable/round_sports_baseball_24"
+            android:gravity="center_vertical"
+            android:letterSpacing=".09"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="45dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="-16dp"
+            android:src="@drawable/rounded_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/usernameLayout" />
+
+
+        <!-- Text Input Layout with EditText -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/usernameLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="@dimen/universal_padding"
+            android:hint="@string/username"
+            app:layout_constraintBottom_toTopOf="@id/passwordLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_max="500dp"
+            tools:layout_editor_absoluteY="391dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/usernameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/universal_text_size" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Password Input Layout -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            app:layout_constraintBottom_toTopOf="@+id/tvErrorMessage"
+            app:layout_constraintEnd_toEndOf="@+id/usernameLayout"
+            app:layout_constraintStart_toStartOf="@+id/usernameLayout"
+            app:layout_constraintWidth_max="500dp"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:inputType="textPassword"
+                android:textSize="@dimen/universal_text_size" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Error Message -->
+        <TextView
+            android:id="@+id/tvErrorMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/universal_padding"
+            android:alpha="0"
+            android:fontFamily="@font/bbr"
+            android:text="@string/your_username_or_password_is_incorrect_please_try_again"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/text_size_alerts"
+            app:layout_constraintBottom_toTopOf="@+id/cbRememberMe"
+            app:layout_constraintEnd_toEndOf="@+id/passwordLayout"
+            app:layout_constraintStart_toStartOf="@+id/passwordLayout" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbRememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/universal_padding"
+            android:paddingStart="5dp"
+            android:button="@drawable/round_checkbox"
+            android:text="@string/remember_me"
+            android:textSize="@dimen/universal_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btnContinue"
+            app:layout_constraintStart_toStartOf="@+id/passwordLayout" />
+
+        <TextView
+            android:id="@+id/tvHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/help"
+            android:textSize="@dimen/universal_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/cbRememberMe"
+            app:layout_constraintEnd_toEndOf="@+id/passwordLayout"
+            app:layout_constraintTop_toTopOf="@+id/cbRememberMe" />
+
+        <!-- Continue Button -->
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/universal_padding"
+            android:layout_marginBottom="@dimen/universal_padding"
+            android:paddingVertical="@dimen/universal_button_padding"
+            android:text="@string/continue_"
+            android:textColor="@color/white"
+            android:textSize="@dimen/universal_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/btn2"
+            app:layout_constraintEnd_toEndOf="@+id/passwordLayout"
+            app:layout_constraintStart_toStartOf="@+id/passwordLayout" />
+
+        <!-- Bottom Buttons -->
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/universal_padding"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Button 2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/universal_text_size"
+            app:layout_constraintBottom_toBottomOf="@id/imageView3"
+            app:layout_constraintEnd_toEndOf="@+id/passwordLayout"
+            app:layout_constraintStart_toEndOf="@+id/divider" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/btn2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn2" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/universal_padding"
+            android:backgroundTint="@android:color/transparent"
+            android:text="Button 1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/universal_text_size"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintEnd_toStartOf="@+id/divider"
+            app:layout_constraintStart_toStartOf="@+id/passwordLayout" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
